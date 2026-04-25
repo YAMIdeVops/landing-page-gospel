@@ -18,7 +18,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Vanessa Soares | Cantora",
   description:
-    "Conheça o trabalho da cantora Vanessa Soares e assista a apresentações selecionadas.",
+    "Conheca o trabalho da cantora Vanessa Soares e assista a apresentacoes selecionadas.",
+  icons: {
+    icon: "/favicon/favicon.png",
+    shortcut: "/favicon/favicon.png",
+    apple: "/favicon/favicon.png",
+  },
 };
 
 export default function RootLayout({

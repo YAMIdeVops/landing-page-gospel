@@ -15,6 +15,8 @@ export function SiteFooter() {
         alt="Vanessa Soares"
         width={170}
         height={255}
+        sizes="(max-width: 560px) 118px, 170px"
+        quality={68}
       />
       <div className="footer-contacts" aria-label="Contatos">
         <a

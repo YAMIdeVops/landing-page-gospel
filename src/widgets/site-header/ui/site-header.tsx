@@ -9,7 +9,8 @@ export function SiteHeader() {
           alt="Vanessa Soares"
           width={170}
           height={255}
-          priority
+          sizes="(max-width: 560px) 76px, (max-width: 900px) 92px, 156px"
+          quality={68}
         />
       </a>
       <nav className="site-nav" aria-label="Navegação principal">

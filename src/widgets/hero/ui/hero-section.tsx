@@ -13,18 +13,13 @@ export function HeroSection() {
         <div className="hero-bokeh hero-bokeh-left"></div>
         <div className="hero-bokeh hero-bokeh-right"></div>
         <Image
-          className="hero-echo"
-          src="/cantora/Vanessa.png"
-          alt=""
-          width={520}
-          height={650}
-        />
-        <Image
           className="hero-portrait"
           src="/cantora/Vanessa.png"
           alt=""
           width={520}
           height={650}
+          sizes="(max-width: 400px) 92vw, (max-width: 560px) 88vw, (max-width: 900px) 72vw, 520px"
+          quality={72}
           priority
         />
         <div className="hero-mist"></div>
