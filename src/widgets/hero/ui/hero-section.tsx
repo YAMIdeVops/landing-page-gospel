@@ -4,11 +4,7 @@ import { siteData } from "@/shared/config/site";
 
 export function HeroSection() {
   return (
-    <section
-      className="hero"
-      id="inicio"
-      aria-label="Apresentação de Vanessa Soares"
-    >
+    <section className="hero" id="inicio" aria-label="Apresentacao de Vanessa Soares">
       <div className="hero-visual" aria-hidden="true">
         <div className="hero-bokeh hero-bokeh-left"></div>
         <div className="hero-bokeh hero-bokeh-right"></div>
@@ -30,18 +26,18 @@ export function HeroSection() {
         <p className="hero-text">
           Bendiga o Senhor a minha alma!
           <br />
-          Não esqueça nenhuma de suas bênçãos!
+          Nao esqueca nenhuma de suas bencaos!
           <br />
           Salmos 103:2
         </p>
-        <div className="hero-actions" aria-label="Ações principais">
+        <div className="hero-actions" aria-label="Acoes principais">
           <a
             className="button primary"
-            href={siteData.whatsappUrl}
+            href={siteData.youtube.url}
             target="_blank"
             rel="noreferrer"
           >
-            Assistir vídeos
+            Assistir videos
           </a>
           <a
             className="button ghost"
